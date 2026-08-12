@@ -1,0 +1,4 @@
+# 本目录同步到发布仓库后是独立项目：允许 esbuild 的安装脚本（VitePress 依赖），
+# 否则 pnpm 10+ 会因 ignored builds 报错。在 music-suite 仓库内此文件不生效（以根 workspace 配置为准）。
+allowBuilds:
+  esbuild: true
