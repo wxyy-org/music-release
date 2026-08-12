@@ -1,0 +1,7 @@
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+
+# 由 sync-docs.sh 同步时注入，不入手动维护
+changelog.md
+.vitepress/version.json
