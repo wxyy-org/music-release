@@ -4,9 +4,9 @@
 
 正常情况下不会发生：端口被旧版本占用时新程序会自动接管。如果确实没反应：
 
-1. 确认端口 `31004` 是否被**其他程序**占用：
-   - macOS：`lsof -nP -iTCP:31004`
-   - Windows：`netstat -ano | findstr 31004`
+1. 确认端口 `52345` 是否被**其他程序**占用：
+   - macOS：`lsof -nP -iTCP:52345`
+   - Windows：`netstat -ano | findstr 52345`
 2. 被其他程序占用时，结束该程序，或让 music-online 换端口启动（见 [快速上手 → 更换端口](/guide/quickstart#_4-更换端口-可选)）
 3. 查看日志定位：
    - Windows：exe 同目录的 `music-online.log`

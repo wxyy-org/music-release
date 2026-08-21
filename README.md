@@ -12,7 +12,7 @@ music-online 的发布仓库：这里提供各平台的安装包下载与完整�
 | `music-online-darwin-arm64.zip` | macOS Apple Silicon（M 系列芯片） |
 | `music-online-darwin-amd64.zip` | macOS Intel |
 
-解压后双击运行即可，默认监听 `31004` 端口并自动打开浏览器。详见 [快速上手](docs/guide/quickstart.md)。
+解压后双击运行即可，默认监听 `52345` 端口并自动打开浏览器。详见 [快速上手](docs/guide/quickstart.md)。
 
 ## 用户文档
 
